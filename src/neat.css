@@ -1,0 +1,54 @@
+body{
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   background-color: aliceblue;
+
+    
+}
+
+.box{
+    position: relative;
+
+  background: linear-gradient(71deg, #2b1b33, #523466, #ac1adc);
+  background-clip: padding-box;
+  border-radius: 45px;
+  padding: 40px;
+  width: 65vw;
+  height: 50vh;
+  
+    box-shadow: 5px 55px 30px 20px rgba(23, 12, 12, 0.5);
+
+  ;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding:16px 22px;
+    border-radius: 12px;
+    border: none;
+    background-color:aquamarine;
+    display: flex;
+   align-content: end;
+   cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
